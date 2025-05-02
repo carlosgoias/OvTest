@@ -1,0 +1,39 @@
+{
+  'user': {
+    'id': 12345,
+    'profile': {
+      'name': 'Alice',
+      'contact': {
+        'email': 'alice@example.com',
+        'phone': {
+          'home': '123-456-7890',
+          'mobile': '987-654-3210'
+        },
+        'addresses': [
+          {
+            'type': 'home',
+            'location': {
+              'street': '123 Main St',
+              'city': 'Springfield',
+              'country': {
+                'name': 'USA',
+                'code': 'US'
+              }
+            }
+          },
+          {
+            'type': 'work',
+            'location': {
+              'street': '456 Work Blvd',
+              'city': 'Metropolis',
+              'country': {
+                'name': 'USA',
+                'code': 'US'
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}
